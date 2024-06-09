@@ -1,0 +1,466 @@
+body {
+    background-color: #071325;
+    font-family: roboto, sans-serif;
+    text-transform: inherit;
+}
+
+.container #header {
+    display: grid;
+    place-content: center;
+}
+
+.container #navigation {
+    display: grid;
+    place-content: center;
+}
+
+#navigation #mm0 {
+    background-color: #071325;
+}
+
+.field-label {
+    font-size: 1.6rem;
+    font-family: "Penumbra Half Serif";
+    color: #85784a;
+}
+
+h1 {
+    font-family: Penumbra Flare;
+}
+
+h2 {
+    color: rgb(177, 150, 111);
+    font-family: "Penumbra Flare";
+}
+
+/*
+----------> INICIO <----------
+*/
+
+.region-content #block-views-vista-inicio-block .content .view-vista-inicio .view-content .views-view-grid {
+    border: 3px #85784a solid;
+}
+
+
+.region-content #block-views-vista-inicio-block .content .view-vista-inicio .view-content .views-view-grid .row-1 img {
+    border: solid 3px;
+    border-color: #85784a;
+    transition: transform .4s ease-in-out;
+}
+
+.region-content #block-views-vista-inicio-block .content .view-vista-inicio .view-content .views-view-grid .row-1 img:hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(360deg) scale3d(1.1, 1.1, 1);
+}
+
+.region-content #block-views-vista-inicio-block .content .view-vista-inicio .view-content .views-view-grid .row-1 {
+    background-color: #191919;
+}
+
+/*
+----------------------------
+*/
+
+#sidebar-second #block-views-prueba-banner-block .content .view-prueba-banner .view-content .views-row .banner-lateral-derecho {
+    display: grid;
+    place-content: center;
+}
+
+#sidebar-second #block-views-prueba-banner-block .content .view-prueba-banner .view-content .views-row .banner-lateral-derecho img {
+    border: solid 3px #85784a;
+    transition: transform .4s ease-in-out;
+}
+
+#sidebar-second #block-views-prueba-banner-block .content .view-prueba-banner .view-content .views-row .banner-lateral-derecho img:hover {
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+/*
+----------------------------------------------
+*/
+
+.region-content #block-views-vista-items-inicio-block .content .view-vista-items-inicio .view-content .views-view-grid .row-1 td a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.region-content #block-views-vista-items-inicio-block .content .view-vista-items-inicio .view-content .views-view-grid .row-1 td {
+    text-align: center;
+    border: solid 3px;
+    border-color: #85784a;
+    transition: transform .4s ease-in-out;
+}
+
+.region-content #block-views-vista-items-inicio-block .content .view-vista-items-inicio .view-content .views-view-grid .row-1 img:hover {
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.region-content #block-views-vista-items-inicio-block .content .view-vista-items-inicio .view-content .views-view-grid .row-1 {
+    background-color: #191919;
+}
+
+
+
+/*
+----------> MENU MODO DE JUEGO <----------
+*/
+.region-content .block-views .content .view-prueba-banner .view-content .views-row {
+    display: grid;
+    place-content: center;
+}
+
+.region-content .block-views .content .view-prueba-banner .view-content .views-row img {
+    border: solid 2px;
+    border-color: #85784a;
+    transition: transform .4s ease-in-out;
+}
+
+.region-content .block-views .content .view-prueba-banner .view-content .views-row img:hover {
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+/*
+----------> MENU DE PERSONAJES <----------
+*/
+
+
+#block-views-vista-dioses-block .content .view-vista-dioses .view-content img {
+    border: solid 3px;
+    border-color: #85784a;
+    transition: transform .4s ease-in-out;
+}
+
+
+#block-views-vista-dioses-block .content .view-vista-dioses .view-content img:hover {
+    cursor: pointer;
+    transform: perspective(600px) rotateY(360deg) scale3d(1.1, 1.1, 1);
+}
+
+#block-views-vista-dioses-block .content .view-vista-dioses .view-content .views-view-grid td {
+    background-color: #191919;
+    border: solid 1px #191919;
+}
+
+/*
+----------> ESTILO: MODO DE JUEGO <----------
+*/
+
+.node-modo-de-juego .field-name-field-informacion {
+    float: left;
+    width: 53%;
+}
+
+.node-modo-de-juego .field-name-field-objetivo-del-mapa {
+    float: right;
+    width: 45%;
+}
+
+.node-modo-de-juego .field-name-field-campamentos-de-la-jungla {
+    float: right;
+    width: 45%;
+}
+
+.node-modo-de-juego .field-name-field-mapa {
+    float: left;
+    width: 55%;
+}
+
+.node-modo-de-juego .field-name-field-capturas {
+    float: inline-end;
+    width: 100%;
+}
+
+.node-modo-de-juego .field-name-field-capturas .field-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    width: 100%
+}
+
+/*
+----------> ESTILO: PERSONAJES <----------
+*/
+
+
+.node-dioses .field-name-field-imagen-del-dios .field-items img {
+    border: solid 3px #85784a;
+}
+
+.node-dioses .field-name-field-clase {
+    display: inline-block;
+    width: 33%;
+    margin: 80px 0px 40px;
+}
+
+.node-dioses .field-name-field-clase .field-items .field-item {
+    color: #ada176;
+    font-family: Penumbra Flare;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.node-dioses .field-name-field-panteon {
+    display: inline-block;
+    width: 33%;
+    margin: 80px 0px 40px;
+}
+
+.node-dioses .field-name-field-panteon .field-items .field-item {
+    color: #ada176;
+    font-family: Penumbra Flare;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.node-dioses .field-name-field-tipo {
+    display: inline-block;
+    width: 33%;
+    margin: 80px 0px 40px;
+}
+
+.node-dioses .field-name-field-tipo .field-items .field-item {
+    color: #ada176;
+    font-family: Penumbra Flare;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.node-dioses .field-name-field-historia .field-label {
+    text-align: center;
+}
+
+.node-dioses .field-name-field-historia .field-items {
+    line-height: 1.7;
+    text-indent: 2rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+.region-content #block-quicktabs-habilidades h2 {
+    text-align: center;
+}
+
+.ui-widget-header {
+    border: 2px solid #85784a;
+    background: #071325;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 2px solid #85784a;
+    background-color: #0b203a;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 0px solid #85784a;
+    background: #071325;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ui-widget-content {
+    border: 2px solid #85784a;
+    background: #071325;
+    color: #fff;
+    font-size: 12.7px;
+    line-height: 1.7;
+    text-indent: 2rem;
+    font-weight: 100;
+}
+
+.node-personajes .field-name-field-habilidades .field-items ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+}
+
+
+#highlighted .region-highlighted {
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*
+----------> ESTILO: HABILIDADES <----------
+*/
+
+
+/*
+ITEMS
+*/
+
+
+#block-views-vista-items-block .content .view-vista-items .view-content .views-field img {
+    border: solid 3px;
+    border-color: #000;
+    transition: transform .4s ease-in-out;
+}
+
+#block-views-vista-items-block .content .view-vista-items .view-content .views-field img:hover {
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+#block-views-vista-items-block .content .view-vista-items .view-content .views-field .field-content a {
+    color: #fff;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+}
+
+
+#block-views-vista-items-block .content .view-vista-items .view-content .views-view-grid td {
+    background-color: #191919;
+    border: solid 1px #191919;
+}
+
+/*
+CONTENIDO
+*/
+
+
+.node-items .field-name-field-tier-3 .field-items {
+    float: left;
+    margin-right: 25px;
+}
+
+.node-items .field-name-field-nivel {
+    display: block;
+    height: 60px;
+}
+
+.node-items .field-name-field-costo {
+    display: block;
+    height: 60px;
+}
+
+.node-items .field-name-field-estadisticas {
+    display: block;
+    margin-top: 20px;
+}
+
+#sidebar-second .region-sidebar-second .block-quicktabs {
+    margin-top: 70px;
+}
+
+/*
+ ----------> NOTICIAS INICIO <----------
+*/
+#sidebar-second #block-views-noticias-block .content .view-noticias .view-content .views-row {
+    display: block;
+    border: solid 3px #85784a;
+    transition: all 0.4s ease;
+
+}
+
+#sidebar-second #block-views-noticias-block .content .view-noticias .view-content .views-row .portada_imagen img {
+    width: 100%;
+}
+
+#sidebar-second #block-views-noticias-block .content .view-noticias .view-content .views-row:hover {
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+#sidebar-second #block-views-noticias-block .content .view-noticias .view-content .views-row .titulo_noticia {
+    background-color: rgba(7, 19, 37, 1);
+    text-align: center;
+    overflow: hidden;
+}
+
+#sidebar-second #block-views-noticias-block .content .view-noticias .view-content .views-row .titulo_noticia a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+ ----------> FONDO DE PERSONAJES (ELIMINAR) <----------
+*/
+
+/*
+.node-type-personajes h1{
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  position: absolute;
+  top: 217px;
+  width: 97.4%;
+  
+}*/
+
+/*
+.page-node-21 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/07/Aphrodite.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+.page-node-22 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/06/Agni.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+.page-node-23 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/07/AhMuzenCab.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+.page-node-24 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/07/AhPuch.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+.page-node-25 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/07/Amaterasu.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+.page-node-26 .clearfix .region-highlighted{
+  background-image: url('https://cms.smitegame.com/wp-content/uploads/2017/07/Anhur.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}
+
+
+.page-node-149 .clearfix .region-highlighted{
+  background-image: url('/smite/sites/default/files/Fondos/zhongkui-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:300px;
+}*/
